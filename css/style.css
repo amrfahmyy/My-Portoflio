@@ -1,0 +1,233 @@
+
+.navbar-fixed-top.scrolled {
+  background-color: #333 !important;
+  transition: background-color 200ms linear;
+
+}
+.mynav{  padding-left: 15%;
+  padding-right: 15%;}
+html {
+  scroll-behavior: smooth
+}
+
+body {
+  background: -webkit-linear-gradient(bottom, #16222A 0%, #3A6073 100%);
+  background: -o-linear-gradient(bottom, #16222A 0%, #3A6073 100%);
+  background: linear-gradient(to top, #16222A 0%, #3A6073 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+div {
+  clear: both;
+}
+
+.nav {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.separator {
+  margin: 3rem 0;
+  border-bottom: 1px dashed #fff;
+}
+
+
+.text-gray {
+  color: #aaa;
+}
+
+/* CSS FOR MAIN DIV */
+.maindiv {
+  color: white;
+}
+
+.intro {
+  height: 85vh;
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.panel{
+  margin-top: 100px;
+  width:100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background: #333;
+  color: #aaa;
+}
+.panel-element{
+  font-size: 2em;
+}
+.right-separator {
+  width: 45%;
+  display: inline-block;
+  background-color: white;
+}
+
+.about {
+  height: 85vh;
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.about-img {
+  width: 250px;
+  border-radius: 1000px;
+  margin: 25px auto auto auto;
+  text-align: center;
+}
+
+.body {
+  margin-top: 25px;
+}
+
+.text-gray {
+  color: #B7D4FF;
+}
+
+.text-green {
+  color: #03CEA4;
+}
+
+.btn-touch {
+  color: #03CEA4;
+  border-color: #03CEA4;
+}
+
+.btn-touch:hover {
+  background-color: #03CEA4;
+  border-color: #03CEA4;
+}
+
+.intro-desc {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* ------Experience------- */
+.experience {
+  height: 85vh;
+  margin-top: 200px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.experience-body {
+  margin-top: 50px;
+  width: 600px;
+}
+
+.title {
+  margin-top: 100px;
+  width: 60%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.exp-separator {
+  width: 30%;
+  display: inline-block;
+  background-color: white;
+}
+
+.numbers {
+  font-family: 'Space Mono', monospace;
+  color: #03CEA4;
+}
+
+.tab-content{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+
+.footer{
+  color: #d3d3d3;
+  background-color: #333;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 50px 10px 0px 10px ;
+}
+.footer a{
+  margin: 10px 10px 10px 10px;
+  color: #d3d3d3;
+}
+/* ------/Experience------- */
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .about {
+    height: 150vh;
+    padding-top: 100px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .experience {
+    height: 100vh;
+    margin-top: 200px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .title {
+    margin-top: 100px;
+    width: 70%;
+  }
+}
+
+/* PROJECTS */
+.text-black{
+  color:#333;
+}
+
+.text-blawhiteck{
+  color:#d3d3d3;
+}
+.projects {
+margin-top: 200px;
+}
+.post{
+  margin: 70px 10px 10px 10px;
+  background-color: rgba(0,0,0,0);
+  border-style: none;
+
+}
+
+/* PROJECTS */
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .intro {
+    height: 90vh;
+    padding-top: 0px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .experience-body {
+    margin-top: 0;
+    width: 300px;
+    padding: 0 0 0 0;
+  }
+
+  .title {
+    margin-top: 00px;
+    width: 80%;
+  }
+
+  .tabs {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
